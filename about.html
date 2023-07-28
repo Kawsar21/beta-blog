@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beta Blog Website</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style/style.css" />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Beta Blog</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="courses.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">HTML</a></li>
+                    <li><a class="dropdown-item" href="#">CSS</a></li>
+                    <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                    <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">ReactJS</a>
+                      <a class="dropdown-item" href="#">VueJS</a>
+                      <a class="dropdown-item" href="#">AngularJS</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Single Article -->
+    <!-- Recent Articles -->
+    <div class="container">
+        <div class="row">
+            <img
+            src="img/single-article-banner.jpg"
+            class="single-article-banner mt-4"
+            alt="Banner img"
+          />
+          <div class="col-md-8 mx-auto">
+              <h3 class="mt-5 mb-3">About Our Company</h3>
+            <h5 class="text-secondary">Summary</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium et adipisci doloremque nulla mollitia libero maxime molestias ipsum! Nesciunt nemo quo laudantium suscipit molestias dolorum alias quae ipsum quia.</p>
+            <h4 class="text-secondary">Table of contents</h4>
+            <ul>
+                <li>Item one</li>
+                <li>Item two</li>
+                <li>Item three</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad at est eligendi sequi soluta, nostrum assumenda incidunt possimus doloribus consectetur aliquam ipsum, voluptatum voluptas. Perferendis at adipisci pariatur repellendus illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quasi nobis libero recusandae voluptates neque? Omnis perspiciatis possimus temporibus nobis.</p>
+            <div class="article-item mt-5">
+                <h4>Item One</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut, dicta dolore impedit ipsam excepturi. Dolorem obcaecati suscipit qui quam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea at voluptate molestiae sed repellat totam ullam eius, optio hic corrupti, illo tempore. Recusandae sunt sequi, ipsa quia saepe ipsum odio.</p>
+                <img src="img/single-article-1.jpg" class="single-article" alt="">
+            </div>
+            <div class="article-item mt-5">
+                <h4>Item Two</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut, dicta dolore impedit ipsam excepturi. Dolorem obcaecati suscipit qui quam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea at voluptate molestiae sed repellat totam ullam eius, optio hic corrupti, illo tempore. Recusandae sunt sequi, ipsa quia saepe ipsum odio.</p>
+                <img src="img/single-article-2.jpg" class="single-article" alt="">
+            </div>
+            <div class="article-item mt-5">
+                <h4>Item Three</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ut, dicta dolore impedit ipsam excepturi. Dolorem obcaecati suscipit qui quam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea at voluptate molestiae sed repellat totam ullam eius, optio hic corrupti, illo tempore. Recusandae sunt sequi, ipsa quia saepe ipsum odio.</p>
+                <img src="img/sigle-article-3.jpg" class="single-article" alt="">
+            </div>
+            <h3 class="mt-3">Conclusion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quasi autem quas recusandae, optio debitis nisi. Quisquam voluptatibus laborum voluptatem dolor neque, distinctio exercitationem, adipisci dicta at, similique cum qui!</p>
+          </div>
+        </div>
+
+    <!-- Footer -->
+    <footer class="w-100 bg-dark py-4 mt-5">
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Beta Blog</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              suscipit aliquam perferendis similique laboriosam neque blanditiis
+              consequuntur amet ipsum ipsa?
+            </p>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Courses</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-white">
+        &copy; All Rights Reserved | Kawsar Khan
+      </p>
+    </footer>
+  </body>
+</html>
